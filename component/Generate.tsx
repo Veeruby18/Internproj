@@ -10,13 +10,15 @@ import Image from "next/image";
 import { BsFillCreditCardFill } from "react-icons/bs";
 import { PiNotebookFill } from "react-icons/pi";
 import { IoIosArrowDown } from "react-icons/io";
+import Footer from "./Footer";
 
 const Generate = () => {
   return (
-    <div className="mx-auto w-[100%] xl:max-w-[1300px] flex flex-col gap-8">
+    <>
+    <div className="mx-auto w-[100%] xl:max-w-[1300px] flex flex-col gap-5">
       <div className="flex justify-between">
         <div>
-          <p className="font-medium text-[20px] text-gray-900">Generate</p>
+          <p className="font-medium text-[15px] text-gray-900">Generate</p>
         </div>
         <div className="flex items-center">
           <IoIosArrowDown className="font-medium cursor-pointer text-blue-600" />
@@ -25,22 +27,22 @@ const Generate = () => {
           </a>
         </div>
       </div>
-      <div className="grid grid-row-2 gap-10">
-        <div className="grid md:grid-cols-4 gap-10">
-          <div className="flex gap-2">
-            <div className="flex gap-3">
+      <div className="grid grid-row-2 gap-7">
+        <div className="grid md:grid-cols-4 gap-7">
+          <div className="flex gap-5">
+            <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-gradient-to-b from-gray-500 to-gray-300">
-                  <HiPhoto className="text-[30px]" />
+                  <HiPhoto className="text-[25px]" />
                 </span>
               </div>
 
               <div>
-                <p className="font-medium text-[14px] text-gray-800">
+                <p className="font-medium text-[13px] text-gray-800">
                   Image <span className="card-text">New</span>
                 </p>
 
-                <p className="text-gray-500 text-[11px]">
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
@@ -53,18 +55,18 @@ const Generate = () => {
             </span>
           </div>
 
-          <div className="flex gap-2">
-            <div className="flex gap-5">
+          <div className="flex gap-5">
+            <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-yellow-500">
-                  <IoVideocam className="text-[30px] text-white" />
+                  <IoVideocam className="text-[25px] text-white" />
                 </span>
               </div>
 
               <div>
-                <p className="font-medium text-[14px]">Image </p>
+                <p className="font-medium text-[13px]">Image </p>
 
-                <p className="text-gray-500 text-[11px]">
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
@@ -77,18 +79,18 @@ const Generate = () => {
             </span>
           </div>
 
-          <div className="flex gap-2">
-            <div className="flex gap-5">
+          <div className="flex gap-5">
+            <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-gradient-to-b from-blue-400 to-blue-100">
-                  <PiPaintBrushFill className="text-[30px] text-white" />
+                  <PiPaintBrushFill className="text-[25px] text-white" />
                 </span>
               </div>
 
               <div>
-                <p className="font-medium text-[14px]">Image </p>
+                <p className="font-medium text-[13px]">Image </p>
 
-                <p className="text-gray-500 text-[11px]">
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
@@ -105,16 +107,16 @@ const Generate = () => {
             <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-gradient-to-b from-gray-900 to-gray-500">
-                  <ImMagicWand className="text-[30px] text-white" />
+                  <ImMagicWand className="text-[25px] text-white" />
                 </span>
               </div>
 
               <div>
-                <p className="font-medium text-[14px]">
+                <p className="font-medium text-[13px]">
                   Image <span className="card-text">New</span>
                 </p>
 
-                <p className="text-gray-500 text-[11px]">
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
@@ -130,20 +132,20 @@ const Generate = () => {
         </div>
 
         <div className="grid md:grid-cols-4 gap-10">
-          <div className="flex gap-2">
-            <div className="flex gap-5">
+          <div className="flex gap-5">
+            <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-gradient-to-b from-purple-900 to-purple-400">
-                  <FaA className="text-[30px] text-white" />
+                  <FaA className="text-[25px] text-white" />
                 </span>
               </div>
 
               <div>
-                <p className="font-medium text-[14px]">
+                <p className="font-medium text-[13px]">
                   Image <span className="card-text">New</span>
                 </p>
 
-                <p className="text-gray-500 text-[11px]">
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
@@ -156,20 +158,20 @@ const Generate = () => {
             </span>
           </div>
 
-          <div className="flex gap-2">
-            <div className="flex gap-5">
+          <div className="flex gap-5">
+            <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-gradient-to-b from-gray-900 to-yellow-100">
-                  <GiMicrophone className="text-[30px] text-white" />
+                  <GiMicrophone className="text-[25px] text-white" />
                 </span>
               </div>
 
               <div>
-                <p className="font-medium text-[14px]">
+                <p className="font-medium text-[13px]">
                   Image <span className="card-text">New</span>
                 </p>
 
-                <p className="text-gray-500 text-[11px]">
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
@@ -182,19 +184,19 @@ const Generate = () => {
             </span>
           </div>
 
-          <div className="flex gap-2">
-            <div className="flex gap-5">
+          <div className="flex gap-5">
+            <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-black">
-                  <FaChild className="text-[30px] text-white" />
+                  <FaChild className="text-[25px] text-white" />
                 </span>
               </div>
 
               <div>
-                <p className="font-medium text-[14px]">
+                <p className="font-medium text-[13px]">
                   Image <span className="card-text">New</span>
                 </p>
-                <p className="text-gray-500 text-[11px]">
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
@@ -207,8 +209,8 @@ const Generate = () => {
             </span>
           </div>
 
-          <div className="flex gap-2">
-            <div className="flex gap-5">
+          <div className="flex gap-5">
+            <div className="flex gap-2">
               <div>
                 <span className="card-icon bg-gradient-to-b from-gray-500 to-gray-300">
                   <Image
@@ -221,15 +223,15 @@ const Generate = () => {
               </div>
 
               <div>
-                <p className="font-medium text-[14px]">Image </p>
-                <p className="text-gray-500 text-[11px]">
+                <p className="font-medium text-[13px]">Image </p>
+                <p className="text-gray-500 text-[10px]">
                   Generates images with custom <br />
                   styles in Flux and ideogram.
                 </p>
               </div>
             </div>
             <span className="flex justify-center items-center">
-              <p className="font-medium text-[13px] flex justify-center py-1 bg-gray-100 w-15 rounded-[13px]">
+              <p className="font-medium text-[13px] flex justify-center py-1 bg-gray-100 w-15 rounded-[13px] text-gray-600">
                 Open
               </p>
             </span>
@@ -237,9 +239,9 @@ const Generate = () => {
         </div>
       </div>
 
-      <div className="flex justify-between mt-[25px]">
+      <div className="flex justify-between mt-[5px]">
         <div>
-          <p className="font-medium text-[18px] text-gray-900">Gallery</p>
+          <p className="font-medium text-[14px] text-gray-900">Gallery</p>
         </div>
         <div className="flex gap-2">
           <div className="flex gap-1 bg-gray-100 py-1 w-18 justify-center rounded-[13px]">
@@ -253,6 +255,8 @@ const Generate = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

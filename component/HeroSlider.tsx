@@ -10,7 +10,7 @@ export default function HeroSlider() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 1.8,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -38,28 +38,28 @@ export default function HeroSlider() {
     
     <Slider {...settings} className="mx-auto my-[10px] w-[100%] xl:max-w-[1300px]">
       <div>
-        <Image src="/bg1.jpg" alt="Image1" width={300} height={300}/>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
       <div>
-        <h3>2</h3>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
       <div>
-        <h3>3</h3>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
       <div>
-        <h3>4</h3>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
       <div>
-        <h3>5</h3>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
       <div>
-        <h3>6</h3>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
       <div>
-        <h3>7</h3>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
       <div>
-        <h3>8</h3>
+        <Image src="/bg1.jpg" alt="Image1" width={1000} height={200} className="h-80 rounded-[20px]"/>
       </div>
     </Slider>
   );

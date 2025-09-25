@@ -15,10 +15,11 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="mx-auto my-[10px] w-[100%] xl:max-w-[1300px]">
+    <div className="mx-auto my-[5px] w-[100%] xl:max-w-[1300px]">
       <div className="flex justify-between items-center">
         <div className="flex gap-5 items-center ">
           <div className="bg-purple-500">
+        
             <Image
               src="/krea-log.png"
               alt="logo"
